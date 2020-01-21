@@ -3,6 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name= "purple">#600090</color>
-    <color name="yellow">#FBDB0C</color>
+    <color name= "EphPurple">#600090</color>
+    <color name="EphYellow">#FBDB0C</color>
+    <color name="white">#fff</color>
 </resources>
