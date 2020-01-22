@@ -35,8 +35,8 @@ class BuildingAdapter : RecyclerView.Adapter<BuildingAdapter.ViewHolder>{
         val building = buildings[position]
 
         holder.buildingName.text = building.name
-        holder.yearBuilt.text = building.yearBuilt.toString()
-        holder.capacity.text = building.capacity.toString()
+        holder.yearBuilt.append(building.yearBuilt.toString())
+        holder.capacity.append(building.capacity.toString() + " rooms")
         holder.btnDelete.setOnClickListener {
             deleteBuilding(position)
         }

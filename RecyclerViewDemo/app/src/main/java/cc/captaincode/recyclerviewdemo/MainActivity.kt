@@ -2,7 +2,6 @@ package cc.captaincode.recyclerviewdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import cc.captaincode.recyclerviewdemo.adapter.BuildingAdapter
 import cc.captaincode.recyclerviewdemo.data.Building
